@@ -1,0 +1,23 @@
+# Core ML / inference
+torch>=2.3.0
+transformers>=4.44.0
+accelerate>=0.33.0
+datasets>=2.20.0
+huggingface-hub>=0.24.0
+sentencepiece>=0.2.0
+protobuf>=4.25.0
+
+# Numerical
+numpy>=1.26.0
+pandas>=2.2.0
+scipy>=1.13.0
+
+# Quantum
+qiskit>=1.2.0
+qiskit-aer>=0.14.0
+qiskit-quantuminspire>=2.0.0
+
+# Utilities
+tqdm>=4.66.0
+scikit-learn>=1.5.0
+matplotlib>=3.9.0
