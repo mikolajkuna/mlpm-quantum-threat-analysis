@@ -11,6 +11,8 @@ This repository contains the experimental code for the paper co-authored by Miko
 
 The paper presents a quantum adversarial complexity analysis of the MLPM (Latent Prototype Moderator) mechanism applied to on-premise SLM deployments in HR pay equity compliance systems.
 
+The dataset will be released publicly upon paper acceptance at conference. Place `hr_payequity_adv.json` in this directory before running experiments.
+
 ### Main contributions
 
 1. **Calibration Paradox** — formal derivation showing that calibration reducing bypass count by factor α increases classical attack difficulty by α but quantum (Grover) difficulty by only √α, amplifying the quantum attacker's relative advantage.
