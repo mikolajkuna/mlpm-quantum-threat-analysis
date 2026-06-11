@@ -7,9 +7,9 @@
 
 ## Overview
 
-This repository contains the experimental code and results for the paper submitted to **KRiT 2026** (Wrocław, September 2026), co-authored by Mikołaj Kuna and Marcin Kowalczyk (Faculty of Electronics and Information Technology, Warsaw University of Technology).
+This repository contains the experimental code for the paper co-authored by Mikołaj Kuna and Marcin Kowalczyk (Faculty of Electronics and Information Technology, Warsaw University of Technology).
 
-The paper extends Paper 3 ([`slm-payequity`](https://github.com/mikolajkuna/slm-payequity)) with a quantum adversarial complexity analysis of the MLPM (Latent Prototype Moderator) mechanism applied to on-premise SLM deployments in HR pay equity compliance systems.
+The paper presents a quantum adversarial complexity analysis of the MLPM (Latent Prototype Moderator) mechanism applied to on-premise SLM deployments in HR pay equity compliance systems.
 
 ### Main contributions
 
@@ -37,14 +37,14 @@ The paper extends Paper 3 ([`slm-payequity`](https://github.com/mikolajkuna/slm-
 ```
 mlpm-quantum-threat-analysis/
 ├── experiments/
-│   ├── eval_mlpm_with_scores.py          # MLPM inference with per-prompt scores
+│   ├── eval_mlpm_with_scores.py           # MLPM inference with per-prompt scores
 │   ├── experiment1_calibration_paradox.py # Empirical Calibration Paradox verification
 │   └── experiment2_grover_quantum_inspire.py # Grover demo on Quantum Inspire
 ├── results/
-│   ├── experiment1/                      # JSON/CSV outputs from Exp. 1 (local)
-│   └── experiment2/                      # JSON outputs from Exp. 2 (local)
+│   ├── experiment1/                       # JSON/CSV outputs from Exp. 1 (local)
+│   └── experiment2/                       # JSON outputs from Exp. 2 (local)
 ├── data/
-│   └── README.md                         # HR-PayEquity-Adv dataset description
+│   └── README.md                          # HR-PayEquity-Adv dataset description
 ├── requirements.txt
 ├── .gitignore
 └── README.md
@@ -135,28 +135,6 @@ See `requirements.txt`. Key packages:
 - `datasets` — WildGuardMix calibration data (`allenai/wildguardmix`)
 - `qiskit`, `qiskit-aer`, `qiskit-quantuminspire` — quantum circuit simulation
 - `numpy`, `pandas`, `scipy` — numerical analysis
-
----
-
-## Related repositories
-
-- [`slm-payequity`](https://github.com/mikolajkuna/slm-payequity) — Paper 3: security framework for on-premise SLM deployment (KRiT 2026)
-- [`GAMBA`](https://github.com/mikolajkuna/GAMBA) — Paper 1: GAM + Bayesian pay equity analysis (PP-RAI 2026)
-
----
-
-## Citation
-
-```bibtex
-@inproceedings{kuna2026quantum,
-  title     = {Kwantowa analiza zagro{\.z}e{\'n} adwersarialnych dla prototypowych
-               system{\'o}w moderacji ma{\l}ych modeli j{\k{e}}zykowych},
-  author    = {Kuna, Miko{\l}aj and Kowalczyk, Marcin},
-  booktitle = {Krajowa Konferencja Radioelektroniki i Teleinformatyki (KRiT 2026)},
-  year      = {2026},
-  address   = {Wroc{\l}aw, Poland}
-}
-```
 
 ---
 
